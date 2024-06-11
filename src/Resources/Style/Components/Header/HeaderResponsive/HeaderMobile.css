@@ -1,0 +1,139 @@
+@media only screen and (min-width: 320px) and (max-width: 413px) {
+  .contentheader {
+    top: 125px;
+  }
+
+  .headlineheader {
+    margin: 0 30px;
+    text-align: left;
+  }
+
+  .headlineheader h1 {
+    font-size: 2.5rem;
+    line-height: 1.3;
+  }
+
+  .taglineheader {
+    margin: 0 30px;
+    text-align: left;
+  }
+
+  .taglineheader h5 {
+    font-size: 0.95rem;
+    line-height: 1.8;
+  }
+
+  .buttonheader button {
+    padding: 7px 50px;
+    margin: 25px 0;
+  }
+
+  .buttonheader button:hover {
+    padding: 7px 50px;
+  }
+
+  .cardcontainer {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 15px auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .cardheader {
+    margin: 15px auto;
+    padding: 5px 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 65px;
+    height: 65px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  .cardheader:hover {
+    transform: scale(1);
+    border-radius: 10px;
+  }
+
+  .cardheader img {
+    width: 40px;
+    max-width: 40px;
+    margin: auto;
+    height: auto;
+    max-height: auto;
+    align-self: center;
+    justify-self: center;
+    transition: transform 0.5s ease;
+  }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 480px) {
+  .contentheader {
+    top: 125px;
+  }
+
+  .headlineheader {
+    margin: 0 30px;
+    text-align: left;
+  }
+
+  .headlineheader h1 {
+    font-size: 2.5rem;
+    line-height: 1.3;
+  }
+
+  .taglineheader {
+    margin: 0 30px;
+    text-align: left;
+  }
+
+  .taglineheader h5 {
+    font-size: 0.95rem;
+    line-height: 1.8;
+  }
+
+  .buttonheader button {
+    padding: 7px 50px;
+    margin: 25px 0;
+  }
+
+  .buttonheader button:hover {
+    padding: 7px 50px;
+  }
+
+  .cardcontainer {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 25px auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .cardheader {
+    margin: 10px auto;
+    padding: 5px 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 65px;
+    height: 65px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+
+  .cardheader img {
+    width: 45px;
+    max-width: 45px;
+    margin: auto;
+    height: auto;
+    max-height: auto;
+    align-self: center;
+    justify-self: center;
+    transition: transform 0.5s ease;
+  }
+}

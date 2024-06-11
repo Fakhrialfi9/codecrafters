@@ -1,0 +1,627 @@
+.container-fluid {
+  width: 100% !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.Product {
+  display: flex;
+  position: relative;
+  top: 0;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProductContainer {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProductContent {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.Headline {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.Headline h2 {
+  font-family: "Mont-HeavyDEMO";
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 0;
+  color: var(--HeadlineColor);
+  text-align: center;
+}
+
+.Tagline {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.Tagline h5 {
+  font-family: "Metropolis-Regular";
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 1.75;
+  color: var(--TaglineColor);
+  text-align: center;
+}
+
+/* Start Product Recommendation */
+.ProductRecommendationContainer {
+  width: 90%;
+  max-width: 90%;
+  height: auto;
+  margin: 25px auto;
+  padding: 10px 0;
+}
+
+.ProductRecommendationContent {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 10px 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.CardProductRecommendationContainer {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 25px auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardProductRecommendationContent {
+  position: relative;
+  display: block;
+  width: 400px;
+  max-width: 400px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardProductRecommendationContentImg {
+  width: 100%;
+  max-width: 100%;
+  height: 15rem;
+  margin: 10px auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.85rem;
+  background-color: bisque;
+}
+/* End Product Recommendation */
+
+/* Start Side Bar Product Tab Link */
+.AllProductCodeCrafters {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 75px auto;
+  padding: 2.5px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.AllProductCodeCraftersContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 2.5px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.AllProductCodeCraftersContent {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 2.5px 0;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.AllProductCodeCraftersContentSideBarLeft {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  max-width: 20%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  border-right: 0.5px solid var(--DarkColor);
+}
+
+.AllProductCodeCraftersContentSideBarLeftContainer {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.AllProductCodeCraftersContentSideBarLeftMenu {
+  display: block;
+  width: 75%;
+  max-width: 75%;
+  height: 100%;
+  justify-content: center;
+  text-align: right;
+  text-decoration: none;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.AllProductCodeCraftersContentSideBarLeftItem {
+  margin: 0 0 50px 0;
+}
+
+.AllProductCodeCraftersContentSideBarLeftLink {
+  font-family: "Metropolis-Regular";
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 0 !important;
+  color: var(--DarkColor);
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  transition: font-weight 0.2s ease-in-out;
+}
+
+.AllProductCodeCraftersContentSideBarLeftLink:hover {
+  transition: font-weight 0.2s ease-in-out;
+  font-weight: 700;
+}
+
+.AllProductCodeCraftersContentSideBarRight {
+  display: inline;
+  width: 80%;
+  max-width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.AllProductCodeCraftersContentSideBarRightContainer {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.AllProductCodeCraftersContentSideBarRightContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
+.CardAllProductCodeCraftersContentSideBar {
+  display: flex;
+  width: 90%;
+  max-width: 90%;
+  height: auto;
+  margin: 0 auto 20px auto;
+  padding: 13.5px 0;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0.85rem;
+  background-color: var(--LightColor);
+  -webkit-box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: transform 0.35s ease-in-out;
+}
+
+.CardAllProductCodeCraftersContentSideBar:hover {
+  transition: transform 0.35s ease-in-out;
+  transform: scale(1.01);
+}
+
+.CardAllProductCodeCraftersContentSideBarLeft {
+  width: 30%;
+  max-width: 30%;
+  height: 12.5rem;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.85rem;
+  background-color: bisque;
+}
+
+.CardAllProductCodeCraftersContentSideBarLeft img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  object-fit: cover;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.85rem;
+}
+
+.CardAllProductCodeCraftersContentSideBarCenter {
+  width: 40%;
+  max-width: 40%;
+  height: 12.5rem;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.85rem;
+}
+
+.CardAllProductCodeCraftersContentSideBarCenterContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CardAllProductCodeCraftersContentSideBarCenterTop {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.HeadlineAllProduct {
+  font-size: 24px;
+  margin-bottom: 20px;
+  line-height: 0.25 !important;
+}
+
+.DescriptionAllProduct {
+  font-size: 16px;
+  margin: 0 auto;
+  line-height: 1.5 !important;
+}
+
+.CardAllProductCodeCraftersContentSideBarCenterCenter {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.PriceAllProductContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+}
+
+.PriceAllProduct {
+  height: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0 10px 0 0;
+  padding: 0;
+  text-decoration: line-through;
+}
+
+.DiscountPriceAllProduct {
+  height: 100%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+
+.CardAllProductCodeCraftersContentSideBarCenterBottom {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.BagdeTypeAllProductContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+}
+
+.BagdeTypeAllProduct {
+  width: auto;
+  height: auto;
+  margin-right: 5px;
+  padding: 10px 10px;
+  background-color: var(--PrimaryColor);
+  color: var(--LightColor);
+  border-radius: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.diverlineborder {
+  border-left: 1px solid #ccc;
+  height: 10rem; /* Adjust the height as needed */
+  margin: 0 20px;
+}
+
+.CardAllProductCodeCraftersContentSideBarRight {
+  width: 20%;
+  max-width: 20%;
+  height: 12.5rem;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 0.85rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardAllProductCodeCraftersContentSideBarRightContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CardAllProductCodeCraftersContentSideBarRightTop {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.CardAllProductCodeCraftersContentSideBarRightTop button {
+  width: auto;
+  height: auto;
+  padding: 0 10px;
+  margin: 0 0 0 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+  font-size: 23px;
+  background-color: transparent;
+  color: var(--PrimaryColor);
+}
+
+.CardAllProductCodeCraftersContentSideBarRightTop button:hover {
+  transform: scale(1.3); /* Mengubah skala saat tombol dihover */
+}
+
+.CardAllProductCodeCraftersContentSideBarRightTop button:active {
+  transform: scale(0.7); /* Mengubah skala saat tombol diklik */
+}
+
+.CardAllProductCodeCraftersContentSideBarRightCenter {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardAllProductCodeCraftersContentSideBarRightRating {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.AllProductRatingStart {
+  font-size: 15px;
+  color: gold;
+}
+
+.CardAllProductCodeCraftersContentSideBarRightDateRealese {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.AllProductDateRealese {
+  font-size: 13px;
+  color: var(--DarkColor);
+}
+
+.CardAllProductCodeCraftersContentSideBarRightSalesCount {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.AllProductSalesCount {
+  font-size: 13px;
+  color: var(--DarkColor);
+}
+
+.CardAllProductCodeCraftersContentSideBarRightBottom {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.CardAllProductCodeCraftersContentSideBarRightBottom button {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  padding: 10px 20px;
+  margin: 0 auto;
+  background-color: var(--PrimaryColor);
+  color: var(--LightColor);
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* End Side Bar Product Tab Link */
+
+/* Start Banner Product Discount */
+
+.BannerProductDiscountContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.BannerProductDiscountContent {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardBannerProductDiscountContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardBannerProductDiscountContent {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  max-width: 80%;
+  height: 25rem;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.25rem;
+  background-color: bisque;
+}
+
+/* End Banner Product Discount */

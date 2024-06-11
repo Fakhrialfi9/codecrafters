@@ -1,0 +1,139 @@
+@media only screen and (min-width: 1001px) and (max-width: 1024px) {
+  .contentheader {
+    top: 140px;
+  }
+
+  .headlineheader {
+    margin: 0 30px;
+    text-align: center;
+  }
+
+  .headlineheader h1 {
+    font-size: 3.2rem;
+  }
+
+  .taglineheader {
+    margin: 0 30px;
+    text-align: center;
+  }
+
+  .taglineheader h5 {
+    font-size: 1.3rem;
+  }
+
+  .buttonheader button {
+    padding: 10px 65px;
+    margin: 25px 0;
+  }
+
+  .buttonheader button:hover {
+    padding: 10px 75px;
+  }
+
+  .cardcontainer {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .cardheader {
+    margin: 15px auto;
+    padding: 5px 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 125px;
+    height: 125px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  .cardheader:hover {
+    transform: scale(1);
+    border-radius: 10px;
+  }
+
+  .cardheader img {
+    width: 80px;
+    max-width: 80px;
+    margin: auto;
+    height: auto;
+    max-height: auto;
+    align-self: center;
+    justify-self: center;
+    transition: transform 0.5s ease;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  .contentheader {
+    top: 140px;
+  }
+
+  .headlineheader {
+    margin: 0 30px;
+    text-align: center;
+  }
+
+  .headlineheader h1 {
+    font-size: 3.2rem;
+  }
+
+  .taglineheader {
+    margin: 0 30px;
+    text-align: center;
+  }
+
+  .taglineheader h5 {
+    font-size: 1.3rem;
+  }
+
+  .buttonheader button {
+    padding: 10px 65px;
+    margin: 25px 0;
+  }
+
+  .buttonheader button:hover {
+    padding: 10px 75px;
+  }
+
+  .cardcontainer {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .cardheader {
+    margin: 15px auto;
+    padding: 5px 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 125px;
+    height: 125px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  .cardheader:hover {
+    transform: scale(1);
+    border-radius: 10px;
+  }
+
+  .cardheader img {
+    width: 80px;
+    max-width: 80px;
+    margin: auto;
+    height: auto;
+    max-height: auto;
+    align-self: center;
+    justify-self: center;
+    transition: transform 0.5s ease;
+  }
+}

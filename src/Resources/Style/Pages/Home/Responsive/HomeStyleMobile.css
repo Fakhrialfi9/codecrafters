@@ -1,0 +1,189 @@
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+  /* Start Home Section */
+  .HomeContainer {
+    width: 85% !important;
+    max-width: 85% !important;
+  }
+
+  .HomeContent {
+    width: 100%;
+    max-width: 100%;
+  }
+  /* End Home Section */
+
+  /* Start Our Product */
+  .CardProduct {
+    width: 320px;
+    max-width: 320px;
+    height: auto;
+    margin: 10px auto;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .CardProductButtonLeft button {
+    padding: 10px 35px;
+  }
+
+  .CardProductButtonRight button {
+    padding: 0 1.5px;
+    margin: 0 10px;
+  }
+  /* End Our Product */
+
+  /* Start Why Choose Us */
+  .CardWhyChooseUsImg {
+    width: 320px;
+  }
+
+  .SwiperCardWhyChooseUs {
+    width: 300px;
+    max-width: 300px;
+  }
+
+  .SwiperCardWhyChooseUs.zoom-in {
+    transform: scale(1.1) rotate(0deg);
+    transition: transform 0.5s ease, filter 0.5s ease;
+    z-index: 10;
+  }
+
+  .ContentCardWhyChooseUsTop {
+    display: block;
+    text-align: justify !important;
+    text-align-last: left !important;
+    direction: ltr !important;
+  }
+  .ContentCardWhyChooseUsBottom {
+    display: block;
+    text-align: justify !important;
+    text-align-last: left !important;
+    direction: ltr !important;
+  }
+
+  .CardWhyChooseUsRightTop h5 {
+    text-align: justify !important;
+    text-align-last: left !important;
+    direction: ltr !important;
+  }
+
+  .CardWhyChooseUsRightBottom h5 {
+    text-align: justify !important;
+    text-align-last: left !important;
+    direction: ltr !important;
+  }
+
+  .CardWhyChooseUsRightTop {
+    width: 90%;
+    max-width: 90%;
+  }
+
+  .SwiperCardWhyChooseUs {
+    width: 350px;
+    height: 200px;
+  }
+
+  .CardWhyChooseUsRightBottom {
+    width: 90%;
+    max-width: 90%;
+  }
+
+  /* End Why Choose Us */
+
+  /* Start Whats Update */
+  .CardSliderWhatsNewsContent {
+    width: 95%;
+    max-width: 95%;
+    height: 400px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .NotchCardWhatsNewsContent {
+    width: 45%;
+    max-width: 45%;
+  }
+
+  /* End Whats Update */
+
+  /* Start The Article */
+  .CardTheArticle {
+    position: relative;
+    display: inline-block;
+    width: 320px;
+    max-width: 320px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 0;
+  }
+
+  .CardImgTheArticle {
+    width: 100%;
+    max-width: 100%;
+    height: 200px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: bisque;
+  }
+  /* End The Article */
+
+  /* Start Our Services */
+
+  .CardOurServices {
+    position: relative;
+    display: flex;
+    width: 320px;
+    max-width: 320px;
+    height: 300px;
+    max-height: 300px;
+    background-color: #ffffff;
+    border: 0.8px solid #d6d6d6;
+    margin: 15px auto;
+    padding: 0;
+    border-radius: 10px;
+    transition: transform 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease;
+  }
+
+  /* End Our Services */
+
+  /* Start Contact Us*/
+  .FormContactContent {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 20px 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .FormContactLeft {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .FormContactRight {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  /* End Contact Us*/
+}

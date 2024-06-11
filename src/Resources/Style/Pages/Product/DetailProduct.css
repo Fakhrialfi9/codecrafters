@@ -1,0 +1,86 @@
+/* Start Detail Product */
+
+.DetailProduct {
+  position: relative;
+  top: 5rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  max-height: auto;
+  height: auto;
+  padding: 25px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.DetailProductContainer {
+  display: flex;
+  flex-direction: row;
+  width: 97%;
+  max-width: 97%;
+  height: 95%;
+  max-height: 95%;
+  margin: 0 auto;
+  padding: 15px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.DetailProductContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  margin: 0 auto;
+  padding: 10px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardDetailProductContentImg {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  max-width: 80%;
+  height: 28rem;
+  max-height: 28rem;
+  margin: 15px auto;
+  padding: 0;
+  border-radius: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
+
+.CardDetailProductContentButton {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  max-width: 80%;
+  height: 1rem;
+  max-height: 1rem;
+  margin: 15px auto;
+  padding: 10px 0;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
+
+.CardDetailProductContentHeadline {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  max-width: 80%;
+  height: 1rem;
+  max-height: 1rem;
+  margin: 15px auto;
+  padding: 10px 0;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
+
+/* End Detail Product */

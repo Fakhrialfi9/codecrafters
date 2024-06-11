@@ -1,0 +1,1217 @@
+.container-fluid {
+  width: 100% !important;
+  padding-right: 0 !important; /* Hapus padding kanan */
+  padding-left: 0 !important; /* Hapus padding kiri */
+  margin: 0 auto;
+}
+
+.DisplayNone {
+  display: none !important;
+}
+
+.Home {
+  display: flex;
+  position: relative;
+  top: 0;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeContainer {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeContent {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.Headline h2 {
+  font-family: "Mont-HeavyDEMO";
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 0.8;
+  color: var(--HeadlineColor);
+}
+
+.Tagline {
+  width: 60%;
+  height: auto;
+  justify-content: center;
+  align-self: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.Tagline h5 {
+  font-family: "Metropolis-Regular";
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 1.75;
+  color: var(--TaglineColor);
+}
+
+/* Our Product */
+.OurProductContainer {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 25px auto;
+  padding: 10px 0;
+}
+
+.OurProductContent {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.CardProductContainer {
+  display: flex;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.CardProductContent {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 5px 0;
+}
+
+.CardProduct {
+  width: 400px;
+  max-width: 400px;
+  height: auto;
+  margin: 10px auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardImageConten {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  height: 180px;
+  padding: 0;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: bisque;
+}
+
+.CardImageConten img {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.CardHeadline {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 10px auto;
+}
+
+.CardHeadline h5 {
+  font-size: 1.2rem;
+  font-size: 20px;
+  color: var(--HeadlineColor);
+  font-weight: 500;
+  padding: 0;
+  margin: 5px auto;
+}
+
+.CardHeadline p {
+  font-size: 0.8rem;
+  color: var(--TaglineColor);
+  font-weight: 200;
+  padding: 0;
+  margin: 5px auto;
+  line-height: 1.65;
+}
+
+.CardProductButton {
+  position: relative;
+  bottom: 0 !important;
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin: 25px 0 0 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardProductButtonLeft {
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.CardProductButtonLeft button {
+  position: relative;
+  width: auto;
+  height: auto;
+  padding: 10px 50px;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: var(--PrimaryColor);
+  color: #ffffff;
+  border: 0.5px solid transparent;
+  cursor: pointer;
+  text-align: center;
+}
+
+.CardProductButtonRight {
+  display: flex;
+  position: relative;
+  width: 50%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.CardProductButtonRight button {
+  width: auto;
+  height: auto;
+  padding: 0 10px;
+  margin: 0 0 0 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 23px;
+  background-color: transparent;
+  color: var(--PrimaryColor);
+}
+
+.CardProductButtonRight button:hover {
+  transform: scale(1.3); /* Mengubah skala saat tombol dihover */
+}
+
+.CardProductButtonRight button:active {
+  transform: scale(0.7); /* Mengubah skala saat tombol diklik */
+}
+
+.ProductLike {
+  color: var(--DangerColor);
+}
+/* Our Product */
+
+/*  Why Choose Us */
+.WhyChooseUsContainer {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 25px auto;
+  padding: 10px 0;
+}
+
+.WhyChooseUsContent {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 10px 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ContentCardWhyChooseUsTop {
+  display: flex;
+  width: 90% !important;
+  max-width: 90%;
+  height: auto;
+  margin: 50px auto;
+  align-items: center;
+  justify-content: center;
+  direction: ltr;
+}
+
+.CardWhyChooseUsLeftTop {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: auto;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+}
+
+.CardWhyChooseUsRightTop {
+  font-family: "Metropolis-Regular";
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardWhyChooseUsRightTop h5 {
+  font-size: 0.95rem;
+  text-align: justify;
+  text-align-last: left;
+  color: var(--TaglineColor);
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.CardWhyChooseUsImg {
+  width: 400px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  border-radius: 10px;
+}
+
+.CardWhyChooseUsImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-size: cover;
+  margin: 0 auto;
+  align-self: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.ContentCardWhyChooseUsBottom {
+  display: flex;
+  width: 90% !important;
+  max-width: 90%;
+  height: auto;
+  margin: 50px auto;
+  align-items: center;
+  justify-content: center;
+  direction: rtl;
+}
+
+.CardWhyChooseUsLeftBottom {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  max-width: 30%;
+  height: auto;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+}
+
+.CardWhyChooseUsRightBottom {
+  font-family: "Metropolis-Regular";
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  max-width: 50%;
+  height: auto;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardWhyChooseUsRightBottom h5 {
+  font-size: 0.95rem;
+  text-align: justify;
+  text-align-last: right;
+  color: var(--TaglineColor);
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.ContainerSwiperWhyChooseUs {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 25px auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.WhyChooseUsSwiperContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 50px 0;
+  margin: 0;
+}
+
+.SwiperCardWhyChooseUs {
+  display: flex;
+  width: 300px;
+  max-width: 300px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: bisque;
+  border-radius: 10px;
+  transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+.SwiperCardWhyChooseUs img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.SwiperCardWhyChooseUs.zoom-in {
+  transform: scale(1.1) rotate(0deg);
+  transition: transform 0.5s ease, filter 0.5s ease;
+  z-index: 10;
+}
+
+.SwiperCardWhyChooseUs.zoom-out {
+  z-index: 1;
+  transform: scale(0.9) rotate(1.5deg);
+  filter: grayscale(100%);
+  transition: transform 0.5s ease, filter 0.5s ease;
+}
+/*  Why Choose Us */
+
+/* Our Service */
+.OurServicesContainer {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 25px auto;
+  padding: 10px 0;
+}
+
+.OurServicesContent {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 10px;
+  padding: 5px 0;
+}
+
+.CardOurServicesContainer {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 10px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardOurServicesContent {
+  position: relative;
+  display: flex;
+  width: 95%;
+  max-width: 95%;
+  height: auto;
+  margin: 0 auto;
+  padding: 15px 0;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.CardOurServices {
+  position: relative;
+  display: flex;
+  width: 350px;
+  max-width: 350px;
+  height: 300px;
+  max-height: 300px;
+  background-color: #ffffff;
+  border: 0.8px solid #d6d6d6;
+  margin: 15px auto;
+  padding: 0;
+  border-radius: 10px;
+  transition: transform 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease;
+}
+
+.CardOurServices:hover {
+  transform: scale(1.02);
+  background-color: rgb(252, 252, 252);
+  -webkit-box-shadow: 0px 0px 17px 13px rgba(0, 0, 0, 0.03);
+  -moz-box-shadow: 0px 0px 17px 13px rgba(0, 0, 0, 0.03);
+  box-shadow: 0px 0px 17px 13px rgba(0, 0, 0, 0.03);
+}
+
+.CardImgInside {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  width: 70px;
+  max-width: 70px;
+  height: 70px;
+  max-height: 70px;
+  border: 0.5px solid #d6d6d6;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.CardContentInsideContainer {
+  position: absolute;
+  top: 30%;
+  left: 20px;
+  width: auto;
+  max-width: 85%;
+  height: auto;
+  margin: 10px auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardContentInside {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: left;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.CardContentInside h5 {
+  font-family: "Metropolis-Regular";
+  font-size: 1.3rem;
+  text-align: justify;
+  text-align-last: left;
+  color: var(--HeadlineColor);
+  font-weight: 700;
+  margin: 5px auto;
+  padding: 0;
+}
+.CardContentInside p {
+  font-family: "Metropolis-Regular";
+  font-size: 0.9rem;
+  text-align: left;
+  line-height: 1.5;
+  color: var(--TaglineColor);
+  font-weight: 200;
+  margin: 10px auto;
+  padding: 0;
+}
+
+/* Our Service */
+
+/* Whats News */
+.WhatsNewsContainer {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 25px auto;
+  padding: 10px 0;
+}
+.WhatsNewsContent {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 10px 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.CardWhatsNewsContainer {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.CardWhatsNewsContent {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.CardSliderWhatsNewsContent {
+  width: 85%;
+  max-width: 85%;
+  height: 400px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.CardSliderWhatsNewsContent img {
+  width: 100%;
+  max-width: 100%;
+  height: 500px;
+  object-fit: cover;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.BackgroundColor-1 {
+  width: 100%;
+  max-width: 100%;
+  height: 500px;
+  background-color: var(--PrimaryColor);
+}
+.BackgroundColor-2 {
+  width: 100%;
+  max-width: 100%;
+  height: 500px;
+  background-color: var(--SecondaryColor);
+}
+.BackgroundColor-3 {
+  width: 100%;
+  max-width: 100%;
+  height: 500px;
+  background-color: var(--PrimaryColor);
+}
+.BackgroundColor-4 {
+  width: 100%;
+  max-width: 100%;
+  height: 500px;
+  background-color: var(--SecondaryColor);
+}
+
+.MySwiperWhatsNewsContent {
+  border-radius: 50px;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+
+.NotchCardWhatsNewsContent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 25%;
+  max-width: 25%;
+  height: 38px;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 1.2rem 1.2rem 0 0;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+}
+
+.autoplay-progress {
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: #ffffff;
+  fill: none;
+  stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
+}
+
+/* Whats News */
+
+/* The Article */
+.TheArticleContainer {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 25px auto;
+  padding: 10px 0;
+}
+
+.TheArticleContent {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.CardTheArticleContainer {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.CardTheArticleContent {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding: 5px 0;
+}
+
+.CardTheArticle {
+  position: relative;
+  display: inline-block;
+  width: 400px;
+  max-width: 400px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 15px;
+  padding: 0;
+}
+
+.CardImgTheArticle {
+  width: 400px;
+  max-width: 400px;
+  height: 200px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: bisque;
+}
+
+.BadgeCardImgTheArticle {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 80px;
+  max-width: 80px;
+  height: auto;
+  margin: 0;
+  padding: 2.5px 0;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--InfoColor);
+  border-radius: 0.5rem;
+}
+
+.BadgeCardImgTheArticle h6 {
+  color: var(--LightColor);
+  font-size: 12px;
+  font-weight: 700;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.CardTheArticleDescription {
+  width: 100%;
+  height: auto;
+  padding: 2.5px 0;
+  margin: 10px auto;
+}
+
+.CardTheArticleDescription h5 {
+  font-size: 1.2rem;
+  font-size: 20px;
+  color: var(--HeadlineColor);
+  font-weight: 500;
+  padding: 0;
+  margin: 5px auto;
+}
+
+.CardTheArticleDescription p {
+  font-size: 0.8rem;
+  color: var(--TaglineColor);
+  font-weight: 200;
+  padding: 0;
+  margin: 5px auto;
+  line-height: 1.65;
+}
+
+.ButtonCardTheArticle {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.ButtonCardTheArticleMenu {
+  position: relative;
+  left: 0;
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.ButtonCardTheArticleItem {
+  text-align: left;
+  margin: 0 20px 0 0;
+}
+
+.ButtonCardTheArticleLink {
+  text-decoration: none;
+  list-style: none;
+  color: var(--InfoColor);
+}
+
+.ButtonCardTheArticleLink button {
+  background-color: transparent;
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 0 15px 0 0;
+  color: var(--InfoColor);
+  transition: transform 0.3s ease-in-out;
+}
+
+.ButtonCardTheArticleLink button:hover {
+  transform: scale(1.3);
+}
+
+.ButtonCardTheArticleLink button:active {
+  transform: scale(0.8);
+}
+
+.ButtonCardTheArticleLink span {
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 5px auto;
+  padding: 5px 0;
+}
+
+.CardTheArticlePaginationContainer {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 0 0;
+  padding: 0;
+}
+
+.CardTheArticlePaginationContent {
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardTheArticlePaginationContent li {
+  display: inline;
+  margin: 0 15px;
+  padding: 0;
+}
+
+.CardTheArticlePaginationContent a {
+  text-decoration: none;
+  background-color: var(--InfoColor);
+  color: var(--LightColor);
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.CardTheArticlePaginationContent a:hover {
+  background-color: var(--SecondaryColor);
+}
+
+.CardTheArticlePaginationContent li:last-child a {
+  padding: 5px 10px;
+}
+
+.CardTheArticlePaginationContent a.active {
+  background-color: var(--InfoColor);
+}
+/* The Article */
+
+/* Faq */
+.FaqContainer {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 25px auto;
+  padding: 10px 0;
+}
+
+.FaqContent {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 10px 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.CardFaqContainer {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: inline-block;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.CardFaqContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  margin: 0 auto;
+  width: 65%;
+  max-width: 65%;
+  border-bottom: 0.5px solid #008fd1;
+  transition: background-color 0.5s ease;
+}
+
+.CardFaqContent:hover {
+  background-color: #f5f5f5;
+}
+
+.CardFaqContent.open {
+  background-color: #f5f5f5;
+}
+
+.CardFaqContent.open .CardFaqRight h5 {
+  transform: rotate(180deg);
+}
+
+.CardFaqLeft {
+  width: 80%;
+  max-width: 80%;
+  flex: 1;
+  padding: 10px 5px;
+  display: inline-block;
+  justify-content: center;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.CardFaqLeft h5 {
+  text-align: left;
+  font-family: "Metropolis-Regular";
+  font-size: 15px;
+  margin: 0 auto;
+  color: #008fd1;
+  font-weight: 400;
+  cursor: pointer;
+  line-height: 25px;
+}
+
+.CardFaqRight {
+  width: 20%;
+  max-width: 20%;
+  flex: 1;
+  padding: 10px 5px;
+  display: inline-block;
+  justify-content: center;
+  align-items: flex-end;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.CardFaqRight h5 {
+  font-weight: 500;
+  text-align: center;
+  font-family: "Metropolis-Regular";
+  font-size: 30px;
+  margin: 0;
+  color: #008fd1;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.CardFaqAnswer {
+  display: flex;
+  width: 65%;
+  max-width: 65%;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: flex-start;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.CardFaqContent.open .CardFaqAnswer {
+  display: inline-block;
+  opacity: 1;
+  max-height: 100%;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.CardFaqAnswer h5 {
+  text-align: left;
+  font-family: "Metropolis-Regular";
+  font-size: 15px;
+  color: #9ea6ae;
+  font-weight: 500;
+  animation: slideinFaq 0.3s;
+  animation-fill-mode: forwards;
+  font-style: italic;
+  line-height: 25px;
+}
+
+@keyframes slideinFaq {
+  from {
+    opacity: 0.3;
+    transform: translateY(-20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+/* Faq */
+
+/* Contact */
+
+.ContactUsContainer {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 25px auto;
+  padding: 10px 0;
+}
+
+.ContactUsContent {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 10px 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.FormContactContainer {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.FormContactContent {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.FormContactContent form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.FormContactLeft {
+  width: 50%;
+  max-width: 50%;
+  height: auto;
+  margin: 0 25px;
+  padding: 20px 0;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.FormContactRight {
+  width: 50%;
+  max-width: 50%;
+  height: auto;
+  margin: 0 25px;
+  padding: 20px 0;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.ContactSearchBar {
+  font-family: "Metropolis-Regular";
+  font-size: 0.9rem;
+  font-weight: 400;
+  background-color: #ffffff;
+  border: 0.75px solid var(--PrimaryColor);
+  position: relative;
+  width: 65%;
+  max-width: 65%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+  padding: 15px 20px;
+  border-radius: 2rem;
+}
+
+.ContactSearchBar:focus {
+  outline: none;
+}
+
+.ButtonContactSubmitForm {
+  position: relative;
+  display: flex;
+  width: 67%;
+  max-width: 67%;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.ButtonContactSubmitForm button {
+  font-family: "Metropolis-Regular";
+  font-size: 0.9rem;
+  background-color: var(--PrimaryColor);
+  color: var(--LightColor);
+  width: auto;
+  height: auto;
+  position: absolute;
+  right: 0;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+  margin: 0 auto;
+  padding: 10px 85px;
+  border-radius: 2rem;
+  box-shadow: 0px 5px 13px 0px #dee4f1;
+}
+
+.ButtonContactSubmitForm button:hover {
+  background-color: var(--SecondaryColor);
+}
+
+/* Contact */
