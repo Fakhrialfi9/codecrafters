@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/codecrafters/static/css/main.a13703b5.css",
+    "main.js": "/codecrafters/static/js/main.1491043c.js",
+    "static/js/787.c1112931.chunk.js": "/codecrafters/static/js/787.c1112931.chunk.js",
+    "static/media/Arial.ttf": "/codecrafters/static/media/Arial.0f047617a8f23f8443be.ttf",
+    "static/media/BackgroundChat.png": "/codecrafters/static/media/BackgroundChat.bded4f44087fb4e89252.png",
+    "static/media/Background.png": "/codecrafters/static/media/Background.25a4cf7dd155615b68cd.png",
+    "static/media/bootstrap-icons.woff?": "/codecrafters/static/media/bootstrap-icons.449ad8adf6ae0424b7ed.woff",
+    "static/media/Mont-HeavyDEMO.otf": "/codecrafters/static/media/Mont-HeavyDEMO.a1c041a8d8e27fc771db.otf",
+    "static/media/bootstrap-icons.woff2?": "/codecrafters/static/media/bootstrap-icons.dea24bf5a7646d8b84e7.woff2",
+    "static/media/LogoBootstrap.svg": "/codecrafters/static/media/LogoBootstrap.b0f05cc9b7f568bebedbbe4348f10e0e.svg",
+    "static/media/LogoExpress.svg": "/codecrafters/static/media/LogoExpress.d4209c13411c7fb3df33ea98000d8359.svg",
+    "static/media/LogoNode.svg": "/codecrafters/static/media/LogoNode.046981d9370b83d92d72931233fd4d65.svg",
+    "static/media/Metropolis-Regular.otf": "/codecrafters/static/media/Metropolis-Regular.67a1988d7b65b0aaa16d.otf",
+    "static/media/LogoNavs.svg": "/codecrafters/static/media/LogoNavs.c5f5ab554f5a9d7493cd4d3ed9ab3499.svg",
+    "static/media/LogoNavsWhite.svg": "/codecrafters/static/media/LogoNavsWhite.f2b17df12b079fd3a69c888b29659a88.svg",
+    "static/media/LogoReact.svg": "/codecrafters/static/media/LogoReact.960825dea89fe5439e5d885fd08b98de.svg",
+    "index.html": "/codecrafters/index.html",
+    "main.a13703b5.css.map": "/codecrafters/static/css/main.a13703b5.css.map",
+    "main.1491043c.js.map": "/codecrafters/static/js/main.1491043c.js.map",
+    "787.c1112931.chunk.js.map": "/codecrafters/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a13703b5.css",
+    "static/js/main.1491043c.js"
+  ]
+}

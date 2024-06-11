@@ -1,0 +1,58 @@
+{
+  "short_name": "CodeCrafters",
+  "name": "CodeCrafters: Learn to Code",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "id": "/?source=pwa",
+  "start_url": "/?source=pwa",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6",
+  "shortcuts": [
+    {
+      "name": "Learn to Code Today",
+      "short_name": "Today",
+      "description": "Start your coding journey today",
+      "url": "/today?source=pwa",
+      "icons": [{ "src": "/images/codecrafters-today.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Advanced Coding Challenges",
+      "short_name": "Challenges",
+      "description": "Take on advanced coding challenges",
+      "url": "/challenges?source=pwa",
+      "icons": [{ "src": "/images/codecrafters-challenges.png", "sizes": "192x192" }]
+    }
+  ],
+  "description": "Learn to code with CodeCrafters",
+  "screenshots": [
+    {
+      "src": "/images/screenshot1.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/images/screenshot2.jpg",
+      "type": "image/jpg",
+      "sizes": "720x540",
+      "form_factor": "wide"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+# CodeCrafters - Panduan untuk robots.txt
+User-agent: *  # Aplikasikan kepada semua jenis mesin pencari
+
+# Direktif berikutnya memberikan petunjuk pada mesin pencari tentang halaman yang dilarang diindeks.
+# Di bawah ini adalah contoh aturan standar, dan Anda dapat menyesuaikannya sesuai kebutuhan.
+
+# Dilarang mengindeks seluruh situs
+Disallow: /
+
+# Izinkan akses ke folder yang berisi gambar
+Allow: /images/
+
+# Dilarang mengindeks halaman dengan parameter URL
+Disallow: /*?
+
+# Dilarang mengindeks halaman tertentu
+Disallow: /private-page.html
+Disallow: /confidential/
+
+# Sitemap
+Sitemap: https://www.codecrafters.com/sitemap.xml
