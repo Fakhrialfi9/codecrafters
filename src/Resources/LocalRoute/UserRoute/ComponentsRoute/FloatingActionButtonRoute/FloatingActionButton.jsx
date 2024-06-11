@@ -6,13 +6,13 @@ import FloatingActionButton from "./../../../../Views/User/Components/FloatingAc
 function FloatingActionButtonRouteUser() {
   return (
     <Routes>
-      <Route path="/" element={<FloatingActionButton />} />
-      <Route path="/Home" element={<FloatingActionButton />} />
-      <Route path="/TheArticle" element={<FloatingActionButton />} />
-      <Route path="/Product" element={<FloatingActionButton />} />
-      <Route path="/About" element={<FloatingActionButton />} />
-      <Route path="/Contact" element={<FloatingActionButton />} />
-      <Route path="/" element={<FloatingActionButton />} />
+      <Route path="codecrafters/" element={<FloatingActionButton />} />
+      <Route path="codecrafters/Home" element={<FloatingActionButton />} />
+      <Route path="codecrafters/TheArticle" element={<FloatingActionButton />} />
+      <Route path="codecrafters/Product" element={<FloatingActionButton />} />
+      <Route path="codecrafters/About" element={<FloatingActionButton />} />
+      <Route path="codecrafters/Contact" element={<FloatingActionButton />} />
+      <Route path="codecrafters/" element={<FloatingActionButton />} />
     </Routes>
   );
 }

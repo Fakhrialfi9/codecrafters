@@ -6,13 +6,13 @@ import Footer from "./../../../../Views/User/Components/Footer/Footer";
 function FooterRouteUser() {
   return (
     <Routes>
-      <Route path="/" element={<Footer />} />
-      <Route path="/Home" element={<Footer />} />
-      <Route path="/TheArticle" element={<Footer />} />
-      <Route path="/Product" element={<Footer />} />
-      <Route path="/About" element={<Footer />} />
-      <Route path="/Contact" element={<Footer />} />
-      <Route path="/" element={<Footer />} />
+      <Route path="codecrafters/" element={<Footer />} />
+      <Route path="codecrafters/Home" element={<Footer />} />
+      <Route path="codecrafters/TheArticle" element={<Footer />} />
+      <Route path="codecrafters/Product" element={<Footer />} />
+      <Route path="codecrafters/About" element={<Footer />} />
+      <Route path="codecrafters/Contact" element={<Footer />} />
+      <Route path="codecrafters/" element={<Footer />} />
     </Routes>
   );
 }

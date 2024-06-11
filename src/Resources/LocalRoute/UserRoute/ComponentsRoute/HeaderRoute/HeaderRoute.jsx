@@ -6,13 +6,13 @@ import Header from "./../../../../Views/User/Components/Header/Header";
 function HeaderRouteUser() {
   return (
     <Routes>
-      <Route path="/" element={<Header />} />
-      <Route path="/Home" element={<Header />} />
-      <Route path="/TheArticle" element={<Header />} />
-      <Route path="/Product" element={<Header />} />
-      <Route path="/About" element={<Header />} />
-      <Route path="/Contact" element={<Header />} />
-      <Route path="/" element={<Header />} />
+      <Route path="codecrafters/" element={<Header />} />
+      <Route path="codecrafters/Home" element={<Header />} />
+      <Route path="codecrafters/TheArticle" element={<Header />} />
+      <Route path="codecrafters/Product" element={<Header />} />
+      <Route path="codecrafters/About" element={<Header />} />
+      <Route path="codecrafters/Contact" element={<Header />} />
+      <Route path="codecrafters/" element={<Header />} />
     </Routes>
   );
 }

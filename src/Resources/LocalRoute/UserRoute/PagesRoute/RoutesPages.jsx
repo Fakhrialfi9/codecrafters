@@ -11,13 +11,13 @@ import DetailProduct from "../../../../Resources/Views/User/Pages/Product/Sectio
 function RoutesPages() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/Home" element={<Home />} />
-      <Route path="/TheArticle" element={<TheArticle />} />
-      <Route path="/Product" element={<Product />} />
-      <Route path="/About" element={<About />} />
-      <Route path="/Contact" element={<Contact />} />
-      <Route path="/DetailProduct" element={<DetailProduct />} />
+      <Route path="codecrafters/" element={<Home />} />
+      <Route path="codecrafters/Home" element={<Home />} />
+      <Route path="codecrafters/TheArticle" element={<TheArticle />} />
+      <Route path="codecrafters/Product" element={<Product />} />
+      <Route path="codecrafters/About" element={<About />} />
+      <Route path="codecrafters/Contact" element={<Contact />} />
+      <Route path="codecrafters/DetailProduct" element={<DetailProduct />} />
     </Routes>
   );
 }
