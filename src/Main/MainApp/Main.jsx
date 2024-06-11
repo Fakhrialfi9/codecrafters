@@ -5,9 +5,11 @@ import UserRoute from "../MainRoute/UserRoute/UserRoute.jsx";
 
 function App() {
   return (
-    <Router>
-      <UserRoute />
-    </Router>
+    <main id="">
+      <section className="">
+        <UserRoute />
+      </section>
+    </main>
   );
 }
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Home from "../../../../Resources/Views/User/Pages/Home/Home";
 import TheArticle from "../../../Views/User/Pages/TheArticle/TheArticle";
@@ -10,15 +10,17 @@ import DetailProduct from "../../../../Resources/Views/User/Pages/Product/Sectio
 
 function RoutesPages() {
   return (
-    <Routes>
-      <Route path="codecrafters/" element={<Home />} />
-      <Route path="codecrafters/Home" element={<Home />} />
-      <Route path="codecrafters/TheArticle" element={<TheArticle />} />
-      <Route path="codecrafters/Product" element={<Product />} />
-      <Route path="codecrafters/About" element={<About />} />
-      <Route path="codecrafters/Contact" element={<Contact />} />
-      <Route path="codecrafters/DetailProduct" element={<DetailProduct />} />
-    </Routes>
+    <Router>
+      <Routes>
+        <Route path="codecrafters/" Component={Home} />
+        <Route path="codecrafters/Home" Component={Home} />
+        <Route path="codecrafters/TheArticle" Component={TheArticle} />
+        <Route path="codecrafters/Product" Component={Product} />
+        <Route path="codecrafters/About" Component={About} />
+        <Route path="codecrafters/Contact" Component={Contact} />
+        <Route path="codecrafters/DetailProduct" Component={DetailProduct} />
+      </Routes>
+    </Router>
   );
 }
 
