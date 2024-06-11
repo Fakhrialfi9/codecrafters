@@ -17,22 +17,22 @@ function NavbarCenter() {
             </a>
           </li>
           <li className="NavbarCenterItem">
-            <a className="NavbarCenterLink" href="/Product">
+            <a className="NavbarCenterLink" href="codecrafters/Product">
               Product
             </a>
           </li>
           <li className="NavbarCenterItem">
-            <a className="NavbarCenterLink" href="/About">
+            <a className="NavbarCenterLink" href="codecrafters/About">
               About
             </a>
           </li>
           <li className="NavbarCenterItem">
-            <a className="NavbarCenterLink" href="/Contact">
+            <a className="NavbarCenterLink" href="codecrafters/Contact">
               Contact
             </a>
           </li>
           <li className="NavbarCenterItem">
-            <a className="NavbarCenterLink" href="/TheArticle">
+            <a className="NavbarCenterLink" href="codecrafters/TheArticle">
               The Arti-cle
             </a>
           </li>
