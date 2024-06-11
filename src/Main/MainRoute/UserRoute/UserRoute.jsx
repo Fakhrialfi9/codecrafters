@@ -20,50 +20,50 @@ function UserRoute() {
     <div className="MainLayout">
       <Router>
         <Routes>
-          <Route exact path="codecrafters/" Component={Navbar} />
-          <Route exact path="codecrafters/Home" Component={Navbar} />
-          <Route exact path="codecrafters/TheArticle" Component={Navbar} />
-          <Route exact path="codecrafters/Product" Component={Navbar} />
-          <Route exact path="codecrafters/About" Component={Navbar} />
-          <Route exact path="codecrafters/Contact" Component={Navbar} />
-          <Route exact path="codecrafters/" Component={Navbar} />
-          <Route exact path="codecrafters/DetailProduct" Component={Navbar} />
+          <Route exact path="/" Component={Navbar} />
+          <Route exact path="/Home" Component={Navbar} />
+          <Route exact path="/TheArticle" Component={Navbar} />
+          <Route exact path="/Product" Component={Navbar} />
+          <Route exact path="/About" Component={Navbar} />
+          <Route exact path="/Contact" Component={Navbar} />
+          <Route exact path="/" Component={Navbar} />
+          <Route exact path="/DetailProduct" Component={Navbar} />
         </Routes>
         <Routes>
-          <Route exact path="codecrafters/" Component={Header} />
-          <Route exact path="codecrafters/Home" Component={Header} />
-          <Route exact path="codecrafters/TheArticle" Component={Header} />
-          <Route exact path="codecrafters/Product" Component={Header} />
-          <Route exact path="codecrafters/About" Component={Header} />
-          <Route exact path="codecrafters/Contact" Component={Header} />
-          <Route exact path="codecrafters/" Component={Header} />
+          <Route exact path="/" Component={Header} />
+          <Route exact path="/Home" Component={Header} />
+          <Route exact path="/TheArticle" Component={Header} />
+          <Route exact path="/Product" Component={Header} />
+          <Route exact path="/About" Component={Header} />
+          <Route exact path="/Contact" Component={Header} />
+          <Route exact path="/" Component={Header} />
         </Routes>
         <Routes>
-          <Route exact path="codecrafters/" Component={Home} />
-          <Route exact path="codecrafters/Home" Component={Home} />
-          <Route exact path="codecrafters/TheArticle" Component={TheArticle} />
-          <Route exact path="codecrafters/Product" Component={Product} />
-          <Route exact path="codecrafters/About" Component={About} />
-          <Route exact path="codecrafters/Contact" Component={Contact} />
-          <Route exact path="codecrafters/DetailProduct" Component={DetailProduct} />
+          <Route exact path="/" Component={Home} />
+          <Route exact path="/Home" Component={Home} />
+          <Route exact path="/TheArticle" Component={TheArticle} />
+          <Route exact path="/Product" Component={Product} />
+          <Route exact path="/About" Component={About} />
+          <Route exact path="/Contact" Component={Contact} />
+          <Route exact path="/DetailProduct" Component={DetailProduct} />
         </Routes>
         <Routes>
-          <Route exact path="codecrafters/" Component={FloatingActionButton} />
-          <Route exact path="codecrafters/Home" Component={FloatingActionButton} />
-          <Route exact path="codecrafters/TheArticle" Component={FloatingActionButton} />
-          <Route exact path="codecrafters/Product" Component={FloatingActionButton} />
-          <Route exact path="codecrafters/About" Component={FloatingActionButton} />
-          <Route exact path="codecrafters/Contact" Component={FloatingActionButton} />
-          <Route exact path="codecrafters/" Component={FloatingActionButton} />
+          <Route exact path="/" Component={FloatingActionButton} />
+          <Route exact path="/Home" Component={FloatingActionButton} />
+          <Route exact path="/TheArticle" Component={FloatingActionButton} />
+          <Route exact path="/Product" Component={FloatingActionButton} />
+          <Route exact path="/About" Component={FloatingActionButton} />
+          <Route exact path="/Contact" Component={FloatingActionButton} />
+          <Route exact path="/" Component={FloatingActionButton} />
         </Routes>
         <Routes>
-          <Route exact path="codecrafters/" Component={Footer} />
-          <Route exact path="codecrafters/Home" Component={Footer} />
-          <Route exact path="codecrafters/TheArticle" Component={Footer} />
-          <Route exact path="codecrafters/Product" Component={Footer} />
-          <Route exact path="codecrafters/About" Component={Footer} />
-          <Route exact path="codecrafters/Contact" Component={Footer} />
-          <Route exact path="codecrafters/" Component={Footer} />
+          <Route exact path="/" Component={Footer} />
+          <Route exact path="/Home" Component={Footer} />
+          <Route exact path="/TheArticle" Component={Footer} />
+          <Route exact path="/Product" Component={Footer} />
+          <Route exact path="/About" Component={Footer} />
+          <Route exact path="/Contact" Component={Footer} />
+          <Route exact path="/" Component={Footer} />
         </Routes>
       </Router>
     </div>
